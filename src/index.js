@@ -14,3 +14,13 @@ const ParaText = 'React Element Using JSX';
 const jsxElement = <p id ='jsx'>{ParaText}</p>;
 
 ReactDOM.render(jsxElement, document.getElementById('root'));
+
+// Function vs Class Component.
+// Fuctional : javascript function takes input parameter of props and returns a component in a div.
+// Class uses javascript class syntax and extends React.Component
+// Task: create a component with input box, button and label to test the two ways.
+
+// Functional- no need for state!
+// Means the component is for presentation and no need to change.
+
+
