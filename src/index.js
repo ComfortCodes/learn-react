@@ -1,6 +1,10 @@
 // craete react elements : using javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import Functional from './functional-component';
+
+
 let reactElement = React.createElement(
 'p',
 {'id':'el'},
@@ -14,6 +18,8 @@ const ParaText = 'React Element Using JSX';
 const jsxElement = <p id ='jsx'>{ParaText}</p>;
 
 ReactDOM.render(jsxElement, document.getElementById('root'));
+
+ReactDOM.render(<Functional/>, document.getElementById('root'));
 
 // Function vs Class Component.
 // Fuctional : javascript function takes input parameter of props and returns a component in a div.
