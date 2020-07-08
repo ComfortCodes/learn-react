@@ -1,6 +1,6 @@
 import React from 'react';
 
-class InputForm extends React.Component{
+/*class InputForm extends React.Component{
     UpdateText(){
         document.getElementById('output').innerText = document.getElementById('InputText').nodeValue;
     }
@@ -18,4 +18,17 @@ class InputForm extends React.Component{
     );
     }
 }
-export default InputForm;
+export default InputForm;*/
+
+class PropClass extends React.Component{
+    render(){
+        return(
+            <div>
+                <label>{this.props.text}</label>
+            </div>
+        );
+    }
+}
+export default PropClass;
+       
+    

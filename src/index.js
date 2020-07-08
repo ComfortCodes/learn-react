@@ -2,7 +2,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Functional from './functional-component';
+import Functional from './components/SearchBox/functional-component';
+import PropClass from './components/SearchBox/class';
 
 
 let reactElement = React.createElement(
@@ -28,5 +29,5 @@ ReactDOM.render(<Functional/>, document.getElementById('root'));
 
 // Functional- no need for state!
 // Means the component is for presentation and no need to change.
-
+ReactDOM.render(<PropClass text='Passing props in class components'/>, document.getElementById('root'));
 
